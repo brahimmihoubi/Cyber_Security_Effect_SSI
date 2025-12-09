@@ -1,22 +1,3 @@
-# CyberAI Sentinel
-
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" alt="CyberAI Sentinel Banner" width="100%" />
-  
-  <br />
-  
-  <h3>Exploring the Dual-Edged Sword of AI in Cybersecurity</h3>
-  
-  <p>
-    An interactive web application that visualizes the impact of Artificial Intelligence on digital defense ecosystems, featuring a real-time AI analyst.
-  </p>
-
-[Report Bug](https://github.com/yourusername/cyberai-sentinel/issues) · [Request Feature](https://github.com/yourusername/cyberai-sentinel/issues)
-
-</div>
-
----
-
 ## 📋 Table of Contents
 
 - [About The Project](#about-the-project)
