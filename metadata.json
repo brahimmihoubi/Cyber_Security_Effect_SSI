@@ -1,0 +1,5 @@
+{
+  "name": "CyberAI Sentinel",
+  "description": "An interactive dashboard visualizing the effects of AI on Cybersecurity, featuring a Gemini-powered threat analysis assistant.",
+  "requestFramePermissions": []
+}
