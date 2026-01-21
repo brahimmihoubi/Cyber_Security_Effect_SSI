@@ -1,5 +1,87 @@
-import { SectionData } from './types';
-import { ShieldCheck, AlertTriangle, Activity } from 'lucide-react';
+import { ServiceModel, Threat, BestPractice, SectionData } from './types';
+
+export const SERVICE_MODELS: ServiceModel[] = [
+  {
+    name: 'IaaS',
+    fullName: 'Infrastructure as a Service',
+    description: 'Provides virtualized computing resources over the internet.',
+    examples: 'Virtual machines, networks, storage.'
+  },
+  {
+    name: 'PaaS',
+    fullName: 'Platform as a Service',
+    description: 'A platform allowing customers to develop, run, and manage applications.',
+    examples: 'Runtime, databases, development tools.'
+  },
+  {
+    name: 'SaaS',
+    fullName: 'Software as a Service',
+    description: 'Delivers software applications over the internet, on a subscription basis.',
+    examples: 'Ready-to-use applications (Gmail, Salesforce, etc.).'
+  }
+];
+
+export const THREATS: Threat[] = [
+  {
+    title: 'Data Breaches',
+    description: 'Sensitive data leaked due to weak access controls or lack of encryption.',
+    details: ['Financial loss', 'Legal penalties', 'Loss of trust']
+  },
+  {
+    title: 'Misconfiguration',
+    description: 'The most common cloud security issue, often involving poor settings.',
+    details: ['Public databases', 'Open ports', 'Excessive permissions'],
+    isMostCommon: true
+  },
+  {
+    title: 'Account Hijacking',
+    description: 'Attackers gaining full control of cloud resources.',
+    details: ['Phishing', 'Weak passwords', 'Missing MFA']
+  },
+  {
+    title: 'Insecure APIs',
+    description: 'Exposed interfaces that allow unauthorized access to services.',
+    details: ['Weak authentication', 'Poor endpoint security']
+  },
+  {
+    title: 'Insider Threats',
+    description: 'Misuse of access by authorized users within the organization.',
+    details: ['Malicious intent', 'Careless handling of credentials']
+  }
+];
+
+export const BEST_PRACTICES: BestPractice[] = [
+  {
+    title: 'Use MFA Everywhere',
+    description: 'Multi-Factor Authentication adds a critical layer of identity verification.',
+    icon: '🔐'
+  },
+  {
+    title: 'Apply Least Privilege',
+    description: 'Grant users only the access they strictly need to perform their jobs.',
+    icon: '⚖️'
+  },
+  {
+    title: 'Encrypt Sensitive Data',
+    description: 'Protect data in all states: at rest, in transit, and in use.',
+    icon: '🧊'
+  },
+  {
+    title: 'Monitor Continuously',
+    description: 'Help detect attacks and investigate incidents with logging and alerts.',
+    icon: '👁️'
+  },
+  {
+    title: 'Backup Regularly',
+    description: 'Ensure data recovery in case of deletion, corruption, or ransomware.',
+    icon: '💾'
+  },
+  {
+    title: 'Train Users',
+    description: 'Human error causes most incidents; education is the best defense.',
+    icon: '🎓'
+  }
+];
 
 export const DATA: Record<string, SectionData> = {
   advantages: {

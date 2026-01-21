@@ -1,5 +1,5 @@
 {
-  "name": "CyberAI Sentinel",
-  "description": "An interactive dashboard visualizing the effects of AI on Cybersecurity, featuring a Gemini-powered threat analysis assistant.",
+  "name": "CloudSecure Academy",
+  "description": "An interactive educational platform exploring the principles, threats, and best practices of Cloud Security based on industry standards and the Shared Responsibility Model.",
   "requestFramePermissions": []
 }

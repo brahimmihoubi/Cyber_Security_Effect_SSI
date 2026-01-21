@@ -1,10 +1,10 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Point } from '../types';
+import { SectionPoint } from '../types';
 import { Cpu, AlertOctagon, Ban } from 'lucide-react';
 
 interface CyberCardProps {
-  point: Point;
+  point: SectionPoint;
   type: 'advantages' | 'risks' | 'disadvantages';
   index: number;
 }
